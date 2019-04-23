@@ -1,9 +1,3 @@
-setwd("C:\\Users\\marcao\\Desktop\\Drones\\NDVI\\2018_MAIO")
-setwd("C:\\Users\\marcao\\Desktop\\Drones\\NDVI\\2018_JUNHO")
-setwd("C:\\Users\\marcao\\Desktop\\Drones\\NDVI\\2018_SETEMBRO")
-setwd("C:/Users/marcao/Desktop/Drones/2018_1019/jpeg/DR14/Calibrated_1/")
-
-
 ipak <- function(pkg){
   new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
   if(length(new.pkg))
